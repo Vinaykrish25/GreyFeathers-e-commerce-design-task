@@ -11,9 +11,9 @@ const NewArrivals = () => {
         NEW ARRIVALS
       </h1>
 
-      <div className="flex items-center justify-between p-4 sm:p-10">
+      <div className="flex items-center sm:justify-between p-4 sm:p-10 gap-2">
         <div className="flex flex-col">
-          <div className="bg-[#F0EEED] rounded-[20px] w-[198px] h-[200px] sm:w-[280px] sm:h-[298px] overflow-hidden flex items-center justify-center mb-3">
+          <div className="bg-[#F0EEED] rounded-[20px] h-[200px] sm:w-[280px] sm:h-[298px] overflow-hidden flex items-center justify-center mb-3">
             <img src={arrival_1} alt="" className="object-contain w-full" />
           </div>
           <div className="flex flex-col gap-1">
@@ -65,7 +65,7 @@ const NewArrivals = () => {
         </div>
 
         <div className="flex flex-col">
-          <div className="bg-[#F0EEED] rounded-[20px] w-[198px] h-[200px] sm:w-[280px] sm:h-[298px] overflow-hidden flex items-center justify-center mb-3">
+          <div className="bg-[#F0EEED] rounded-[20px] h-[200px] sm:w-[280px] sm:h-[298px] overflow-hidden flex items-center justify-center mb-3">
             <img src={arrival_2} alt="" className="object-contain w-full" />
           </div>
           <div className="flex flex-col gap-1">

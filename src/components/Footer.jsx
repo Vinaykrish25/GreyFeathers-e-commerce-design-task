@@ -21,7 +21,7 @@ const Footer = () => {
           </h1>
         </div>
         <div>
-          <div className="w-[390px] h-[45px] sm:max-w-md bg-white relative rounded-full">
+          <div className="h-[45px] sm:max-w-md bg-white relative rounded-full">
             <TfiEmail className="absolute w-5 h-5 text-[#00000066] top-3.5 left-4 font-[900]" />
             <input
               type="text"
