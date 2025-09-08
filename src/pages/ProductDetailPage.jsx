@@ -3,6 +3,7 @@ import AddToCart from '../components/AddToCart'
 import AllReviews from '../components/AllReviews'
 import SuggestionProducts from '../components/SuggestionProducts'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const ProductDetailPage = () => {
   return (
